@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		966EDA65CE01882699786498 /* libPods-RxSwift_Practice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7386D55D049D269CA75D2489 /* libPods-RxSwift_Practice.a */; };
+		9826A0972CBD0EFF0099A2E2 /* TextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826A0962CBD0EFF0099A2E2 /* TextFieldViewModel.swift */; };
 		FAA3055A2CBBBD760006785B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA305592CBBBD760006785B /* AppDelegate.swift */; };
 		FAA3055C2CBBBD760006785B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3055B2CBBBD760006785B /* SceneDelegate.swift */; };
-		FAA3055E2CBBBD760006785B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3055D2CBBBD760006785B /* ViewController.swift */; };
+		FAA3055E2CBBBD760006785B /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3055D2CBBBD760006785B /* TextFieldViewController.swift */; };
 		FAA305612CBBBD760006785B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA3055F2CBBBD760006785B /* Main.storyboard */; };
 		FAA305632CBBBD770006785B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA305622CBBBD770006785B /* Assets.xcassets */; };
 		FAA305662CBBBD770006785B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA305642CBBBD770006785B /* LaunchScreen.storyboard */; };
@@ -18,12 +19,13 @@
 
 /* Begin PBXFileReference section */
 		7386D55D049D269CA75D2489 /* libPods-RxSwift_Practice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwift_Practice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9826A0962CBD0EFF0099A2E2 /* TextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModel.swift; sourceTree = "<group>"; };
 		C4E1BE9F79043C9A0F7B3964 /* Pods-RxSwift_Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_Practice/Pods-RxSwift_Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		F7173C9FDE9773F11D672892 /* Pods-RxSwift_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Practice.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_Practice/Pods-RxSwift_Practice.release.xcconfig"; sourceTree = "<group>"; };
 		FAA305562CBBBD760006785B /* RxSwift_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA305592CBBBD760006785B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA3055B2CBBBD760006785B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA3055D2CBBBD760006785B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA3055D2CBBBD760006785B /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		FAA305602CBBBD760006785B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA305622CBBBD770006785B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA305652CBBBD770006785B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,7 +84,8 @@
 			children = (
 				FAA305592CBBBD760006785B /* AppDelegate.swift */,
 				FAA3055B2CBBBD760006785B /* SceneDelegate.swift */,
-				FAA3055D2CBBBD760006785B /* ViewController.swift */,
+				FAA3055D2CBBBD760006785B /* TextFieldViewController.swift */,
+				9826A0962CBD0EFF0099A2E2 /* TextFieldViewModel.swift */,
 				FAA3055F2CBBBD760006785B /* Main.storyboard */,
 				FAA305622CBBBD770006785B /* Assets.xcassets */,
 				FAA305642CBBBD770006785B /* LaunchScreen.storyboard */,
@@ -206,7 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA3055E2CBBBD760006785B /* ViewController.swift in Sources */,
+				9826A0972CBD0EFF0099A2E2 /* TextFieldViewModel.swift in Sources */,
+				FAA3055E2CBBBD760006785B /* TextFieldViewController.swift in Sources */,
 				FAA3055A2CBBBD760006785B /* AppDelegate.swift in Sources */,
 				FAA3055C2CBBBD760006785B /* SceneDelegate.swift in Sources */,
 			);
